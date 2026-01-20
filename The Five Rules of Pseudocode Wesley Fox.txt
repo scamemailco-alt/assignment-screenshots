@@ -1,0 +1,12 @@
+The Five Rules of Pseudocode
+1. Use standard programming structures such as if-else, for, while, and cases the way we use them in programming. 
+
+2. Indent the statements if-else, for, while loops as they are indented in a program, it helps to comprehend the decision control and execution mechanism. It also improves readability to a great extent.
+
+3. Use appropriate naming conventions. The human tendency follows the approach of following what we see. If a programmer goes through a pseudo code, his approach will be the same as per that, so the naming must be simple and distinct.
+
+4. Reserved commands or keywords must be represented in capital letters. Example: if you are writing IF…ELSE statements then make sure IF and ELSE be in capital letters.
+
+5. Don't write the pseudocode in a programming language. It is necessary that the pseudocode is simple and easy to understand even for a layman or client, minimizing the use of technical terms.
+
+GeeksforGeeks. “What Is PseudoCode: A Complete Tutorial.” GeeksforGeeks, 29 Aug. 2022, www.geeksforgeeks.org/dsa/what-is-pseudocode-a-complete-tutorial/.
