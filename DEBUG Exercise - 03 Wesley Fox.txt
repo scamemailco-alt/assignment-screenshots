@@ -1,0 +1,33 @@
+start
+   Declarations
+      string name
+      num hours
+      num rate
+      num DEDUCTION = 45          // Changed from string to num
+      string EOFNAME = "ZZZ"
+      num gross
+      num net
+   output "Enter first name or ", EOFNAME, " to quit"
+   input name
+   
+   while name <> EOFNAME          // Changed from if to while
+      output "Enter hours worked for ", name
+      input hours
+      output "Enter hourly rate for ", name
+      input rate
+      
+      gross = hours * rate
+      net = gross - DEDUCTION
+      
+      if net > 0 then             // Changed from while to if
+         output "Net pay for ", name, " is ", net
+      else
+         output "Deductions not covered. Net is 0."
+      endif                       // Changed from endwhile
+      
+      output "Enter next name or ", EOFNAME, " to quit"
+      input name
+   endwhile                       // Changed from endif
+   
+   output "End of job"
+stop

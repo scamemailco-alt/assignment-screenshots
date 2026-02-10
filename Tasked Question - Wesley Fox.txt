@@ -1,0 +1,3 @@
+Question: You have been tasked with reviewing and updating this program. What steps would you take to identify any issues in the code?
+
+First, make sure you understand the purpose of the code. Next, go through the code line by line, looking for any mistakes and redundancies. After that, make sure all the math checks out, then test the boundary cases, and finally simulate the loop behavior. 
